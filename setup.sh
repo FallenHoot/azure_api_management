@@ -76,5 +76,5 @@ printf "\nCreate & Configure API Management... (9/9)\n\n"
 # Create & Configure API Management
 az apim create --name $APIM --resource-group $RG --location $location --publisher-name $NAME --publisher-email ITOperations@donotreplydemo.com --sku-name Consumption
 
-URL=https:// + $apiappname + .azurewebsites.net/swagger/v1/swagger.json
+URL=https://$apiappname.azurewebsites.net/swagger/v1/swagger.json
 az apim api import --path '/apis' --resource-group $RG --service-name $APIM --display-name $APIM --specification-format OpenApi --specification-url $URL

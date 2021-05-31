@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace Models.AmazingFootCompanyTypes
+namespace Models.AmazingAPIcompanyTypes
 {
     [Serializable]
     public class Product

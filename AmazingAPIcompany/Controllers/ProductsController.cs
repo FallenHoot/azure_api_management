@@ -1,11 +1,11 @@
-﻿using Models.AmazingFootCompanyTypes;
+﻿using Models.AmazingAPIcompanyTypes;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Threading;
 
-namespace AmazingFootCompany.Controllers
+namespace AmazingAPIcompany.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

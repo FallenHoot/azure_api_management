@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Models.AmazingFootCompanyTypes;
+using Models.AmazingAPIcompanyTypes;
 using System;
 using System.Collections.Generic;
 
-namespace AmazingFootCompany.Controllers
+namespace AmazingAPIcompany.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

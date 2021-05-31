@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Models.AmazingFootCompanyTypes
+namespace Models.AmazingAPIcompanyTypes
 {
     [Serializable]
     public class Inventory

@@ -1,26 +1,26 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>AmazingFootCompany</name>
+        <name>AmazingAPIcompany</name>
     </assembly>
     <members>
-        <member name="M:AmazingFootCompany.Controllers.InventoryController.Get">
+        <member name="M:AmazingAPIcompany.Controllers.InventoryController.Get">
             <summary>
             Retrieve the entire product inventory for the company.
             </summary>
             <returns></returns>
         </member>
-        <member name="M:AmazingFootCompany.Controllers.InventoryController.Get(System.Int32)">
+        <member name="M:AmazingAPIcompany.Controllers.InventoryController.Get(System.Int32)">
             <summary>
             Retrieve the number in stock for the specified product 
             </summary>
         </member>
-        <member name="M:AmazingFootCompany.Controllers.ProductsController.Get">
+        <member name="M:AmazingAPIcompany.Controllers.ProductsController.Get">
             <summary>
             Retrieve the details of every product sold 
             </summary>
         </member>
-        <member name="M:AmazingFootCompany.Controllers.ProductsController.Get(System.Int32)">
+        <member name="M:AmazingAPIcompany.Controllers.ProductsController.Get(System.Int32)">
             <summary>
             Find the details of the specified product
             </summary>

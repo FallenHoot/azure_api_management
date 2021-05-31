@@ -33,7 +33,7 @@ namespace AmazingFootCompany
             {
                 c.SwaggerDoc("v1", new Info
                 {
-                    Title = "NorthWindShoes Products",
+                    Title = "AmazingAPIcompany Products",
                     Version = "v1",
                     // You can also set Description, Contact, License, TOS...
                 });
@@ -59,7 +59,7 @@ namespace AmazingFootCompany
             });
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "NorthWindShoes API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "AmazingAPIcompany API V1");
             });
         }
     }

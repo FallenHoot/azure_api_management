@@ -1,7 +1,4 @@
 ﻿#!/bin/bash
-
-apiappname=AmazingFootCompanyAPI$(openssl rand -hex 5)
-
 printf "Setting username and password for Git ... (1/7)\n\n"
 
 
@@ -47,18 +44,14 @@ REMOTE_NAME=production
 # Set remote on src
 printf "\nSetting Git remote...(5/7)\n\n"
 
-
 git remote add $REMOTE_NAME $GIT_URL
-
 
 printf "\nGit add...(6/7)\n\n"
 
 git add .
 git commit -m "initial revision"
 
-
 printf "\nGit push... (7/7)\n\n"
-
 
 # printf "When prompted for a password enter this: $DEPLOY_PASSWORD\n"
 # git push --set-upstream $REMOTE_NAME master
@@ -69,9 +62,6 @@ printf "Setup complete!\n\n"
 
 printf "***********************    IMPORTANT INFO  *********************\n\n"
 
-
 printf "Swagger URL: https://$apiappname.azurewebsites.net/swagger\n"
 
-
 printf "Swagger JSON URL: https://$apiappname.azurewebsites.net/swagger/v1/swagger.json\n\n"
-
